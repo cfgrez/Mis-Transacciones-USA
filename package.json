@@ -1,0 +1,15 @@
+{
+  "name": "dashboard-transacciones",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "node build-dashboard.mjs",
+    "build:with-data": "node build-dashboard.mjs",
+    "dev": "npm run build && wrangler pages dev dist",
+    "deploy": "npm run build && wrangler pages deploy dist"
+  },
+  "devDependencies": {
+    "wrangler": "^4.0.0"
+  }
+}

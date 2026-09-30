@@ -1,0 +1,8 @@
+node_modules/
+*.tar.gz
+.dev.vars
+.env
+.wrangler/
+
+# Los CSV contienen información financiera privada y nunca deben subirse.
+*.csv
